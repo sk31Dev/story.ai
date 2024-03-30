@@ -1,8 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# story.ai
+
+Generate unique stories in seconds.
 
 ## Getting Started
 
-First, run the development server:
+Running the development server:
 
 ```bash
 npm run dev
