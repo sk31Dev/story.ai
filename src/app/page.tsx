@@ -1,15 +1,17 @@
+"use client";
+import TimePeriod from "./components/time-period";
+import Universe from "./components/universe";
+
 export default function Home() {
   return (
     <main className="bg-gradient-to-b from-slate-800 to-slate-900 h-screen text-white">
-      <div id="time-period">
-        <h1>Time Period</h1>
-        <button>Ancient</button>
-        <button>Modern</button>
-        <button>Future</button>
+      <div className="h-screen flex flex-col items-center justify-top">
+        <h1 className="text-6xl font-bold mb-8">Select Timeline</h1>
+        <TimePeriod />
+        <br></br>
+        <h1 className="text-6xl font-bold mb-8">Select Universe</h1>
+        <Universe />
       </div>
-      <div>Topics</div>
-      <div></div>
-      <button>Generate story</button>
     </main>
   );
 }
